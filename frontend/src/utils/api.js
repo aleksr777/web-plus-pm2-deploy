@@ -139,7 +139,7 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://localhost:3000');
+  const api = new Api('https://api.mesto-aleksr777.nomorepartiesco.ru');
   
   export default api;
   
