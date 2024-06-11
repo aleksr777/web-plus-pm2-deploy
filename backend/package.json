@@ -7,7 +7,6 @@
     "build": "tsc",
     "start": "ts-node src/app.ts",
     "dev": "ts-node-dev src/app.ts",
-    "deploy": "npm run build && scp -Сr ./build/* praktikum@84.201.172.240:/home/praktikum/mesto-frontend",
     "lint": "npx eslint src/**/*.ts"
   },
   "author": "Yandex.Praktikum",
